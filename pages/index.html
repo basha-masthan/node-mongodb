@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming Soon</title>
+    <!-- Link to your favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Link to Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .social-icon:hover {
+    color: #007bff;
+  }
+  
+  .subscribe-box {
+    margin-top: 50px;
+  }
+  
+  .subscribe-box h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .attractive-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.attractive-button:hover {
+  background-color: #45a049;
+}
+
+.attractive-button:active {
+  background-color: #3e8e41;
+  transform: translateY(1px);
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Coming Soon</h1>
+    <p>We're working on something awesome! Stay tuned for updates.</p>
+    <div class="social-icons">
+      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <div class="subscribe-box">
+      <h2>Subscribe for Updates</h2>
+      <form action="#">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="test" style="margin-top: 4%;">
+        <div class="txt">
+            <p>Try out the TEST version</p>
+        </div>
+        <div class="btn" >
+            <button class="attractive-button" onclick="test();">Click Me</button>
+        </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script>
+    function test(){
+      
+      alert("Try this...!")
+      window.location.href = '/up';
+    }
+  </script>
+</body>
+</html>

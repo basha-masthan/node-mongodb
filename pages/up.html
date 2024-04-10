@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="p1">
+        <h1 style="text-align: center;">Adding Data to MongoDB</h1>
+        <div class="p11">
+            <form action="/down" method="post" style="display: flex;align-items: center;justify-content: center;flex-direction: column;">
+                <input type="text" placeholder="Name" name="name" id="name" style="padding: 10px;margin: 5px;""><br>
+                <input type="email" placeholder="Gmail" name="mail" id="mail" style="padding: 10px;margin: 5px;""><br>
+                <input type="number" name="age" id="age" placeholder="Contact Number" style="padding: 10px;margin: 5px;"">
+<div class="state"> 
+                    <label for="state" style="padding: 5px;margin: 5px;">Choose a State:</label>
+                    <select id="stste" name="state" style="padding: 5px;margin: 5px;">
+                      <option value="Andhra Pradesh">Andhra Pradesh</option>
+                      <option value="telangana">Telangana</option>
+                      <option value="chennai">Chennai</option>
+                    </select>
+                </div>
+                <div class="clg">
+                    <label for="clg" style="padding: 5px;margin: 5px;">Choose a College:</label>
+                    <select id="clg" name="clg" style="padding: 5px;margin: 5px;">
+                      <option value="GIST">GIST</option>
+                      <option value="SVCN">SVCN</option>
+                      <option value="JNTUK">JNTUK</option>
+                    </select>
+                </div>
+
+                <br>
+                <input type="submit" value="submit" style="padding: 10px;margin: 10px 3%;width: 150px;">
+            </form>
+        </div>
+    </div>
+<script>
+    localStorage.setItem(name, name);
+</script>
+</body>
+</html>
